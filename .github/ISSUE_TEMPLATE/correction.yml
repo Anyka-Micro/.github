@@ -1,0 +1,19 @@
+name: Correct an entry
+description: Report a wrong license, author, description or chip list on the profile.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Which entry?
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong, and what should it say?
+      description: A link to the source (for example the LICENSE file) helps us fix it quickly.
+    validations:
+      required: true
