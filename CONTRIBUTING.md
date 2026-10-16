@@ -4,6 +4,39 @@ This is Anyka's official GitHub organization. Its repositories are Anyka's own, 
 
 Every maintainer follows these rules. Rules 1–4 and 7 apply to community projects. Rules 5, 6 and 8 cover how official and community work fit together. The PR checklist (`.github/pull_request_template.md`) enforces them.
 
+## At a glance
+
+### 🔴 Must: a PR that breaks any of these doesn't get merged
+
+| Rule | Why it matters |
+|---|---|
+| Link the **upstream** repo. Never re-host community code. | Re-hosting without permission is copyright infringement, and coming from the vendor it's especially damaging. (§1) |
+| Credit the author by GitHub handle. | It's their work. (§2) |
+| Write descriptions in your own words. | Copying READMEs or images can infringe copyright. (§3) |
+| Copy the license **exactly**, and mark unlicensed repos `No license — link only`. | Users decide what they may legally do based on this column. (§4) |
+| Don't list third-party copies of Anyka SDKs, BSPs or datasheets. | Only Anyka decides what of its IP is released. (§5) |
+| Mark entries **Official** or **Community** correctly. | Official means Anyka supports it. A wrong label is a support and legal promise. (§6) |
+| Honor removal requests within 7 days. | Authors control whether they're associated with a vendor. (§7) |
+| Fill every column, including **Status** and **Checked**. | An entry without them can't be trusted. |
+
+### 🟡 Should: good practice, but not a merge blocker
+
+- Notify the author after listing their project. (§7)
+- Ask authors of unlicensed repos to add a license. (§4)
+- Re-check the license and Status of every entry at least every 6 months, and update **Checked**.
+- Add `CITATION.cff` to official repos that people may cite. (§8)
+
+### What we list, and what we don't
+
+| ✅ List | ❌ Don't list |
+|---|---|
+| SDKs, toolchains and build tooling | Third-party copies of Anyka SDKs, BSPs, datasheets or firmware dumps (§5) |
+| Open firmware and applications with real code | Exploits, vulnerability write-ups, or tools that bypass a manufacturer's cloud or security checks. Report vulnerabilities privately instead. |
+| Projects with a license, or clearly marked `No license — link only` | Repos that bundle Anyka binaries, unless the release owner has approved them (§5) |
+| Projects pushed in the last 12 months, or older ones that are still the reference others build on | Empty, placeholder or dead-link repos |
+
+The **Start here** table on the profile picks entries by usage (stars, forks, how many projects build on them) and recent activity. Keep it to one pick per goal, and never mark a project "recommended": Anyka doesn't endorse Community projects.
+
 ---
 
 ## 1. Link, don't copy
@@ -71,5 +104,5 @@ Repos created in this organization must include:
    - **SDKs & low-level tooling:** toolchains, BSPs, kernel/U-Boot trees, flashing and recovery tools, register docs.
    - **Applications:** firmware images, camera and streaming apps, integrations built on the SDKs.
 2. Copy the **Official** or **Community** row template from the comment in `profile/README.md` and add the row to that section's table.
-3. Fill in **every** column. A row with an empty column doesn't get merged.
+3. Fill in **every** column. A row with an empty column doesn't get merged. Set **Status** from the repo's last push: 🟢 Active within the last 12 months, ⚪ Inactive (with the month of the last push) if older, 📦 Archived if the owner archived it.
 4. Open a PR and complete the checklist. Another admin must approve it before merging.
