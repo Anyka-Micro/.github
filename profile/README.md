@@ -1,3 +1,5 @@
+<p align="center"><img src="anyka-logo.png" alt="Anyka (安凯微电子) logo" width="400"></p>
+
 # Anyka Open Source
 
 The official GitHub home for open-source SDKs, tools and applications for the **Anyka SoC family** (AK3918 and others).
