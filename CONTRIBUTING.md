@@ -1,6 +1,6 @@
 # Contributing & Attribution Policy
 
-This is Anyka's official GitHub organization. Its repositories are Anyka's own, but most of the projects listed in the profile are **community work**, published on their authors' own accounts under their own terms. Our job is to point to that work accurately, credit it properly, and never take more than its license allows. Because we are the vendor, we hold ourselves to a higher standard than a community index would.
+This is Anyka's official GitHub organization. Its repositories are Anyka's own, but most of the projects listed in [awesome-anyka](https://github.com/Anyka-Micro/awesome-anyka) are **community work**, published on their authors' own accounts under their own terms. Our job is to point to that work accurately, credit it properly, and never take more than its license allows. Because we are the vendor, we hold ourselves to a higher standard than a community index would.
 
 Every maintainer follows these rules. Rules 1–4 and 7 apply to community projects. Rules 5, 6 and 8 cover how official and community work fit together. The PR checklist (`.github/pull_request_template.md`) enforces them.
 
@@ -35,7 +35,7 @@ Every maintainer follows these rules. Rules 1–4 and 7 apply to community proje
 | Projects with a license, or clearly marked `No license — link only` | Repos that bundle Anyka binaries, unless the release owner has approved them (§5) |
 | Projects pushed in the last 12 months, or older ones that are still the reference others build on | Empty, placeholder or dead-link repos |
 
-The **Start here** table on the profile picks entries by usage (stars, forks, how many projects build on them) and recent activity. Keep it to one pick per goal, and never mark a project "recommended": Anyka doesn't endorse Community projects.
+The **Get started** list on the profile picks entries by usage (stars, forks, how many projects build on them) and recent activity. Keep it to one pick per goal, and never mark a project "recommended": Anyka doesn't endorse Community projects.
 
 ---
 
@@ -69,7 +69,7 @@ The **Start here** table on the profile picks entries by usage (stars, forks, ho
 
 Many "Anyka SDK" repositories on GitHub are Anyka BSP releases or datasheets that third parties uploaded.
 
-- **Don't list them** in the profile. Where an official release exists, link to that instead.
+- **Don't list them** in awesome-anyka. Where an official release exists, link to that instead.
 - Report each one to the release owner at Anyka (ask an org owner if you don't know who that is). Any takedown or licensing decision is the company's to make, not an individual maintainer's.
 - Before publishing anything official, the release owner confirms what can be released. GPL components (Linux kernel, U-Boot, BusyBox) must ship with their corresponding source. Proprietary libraries and blobs need a stated license.
 - **Never publish internal or confidential material** (unreleased SDKs, NDA datasheets) in this organization without written release approval.
@@ -98,11 +98,11 @@ Repos created in this organization must include:
 
 ---
 
-## Adding a project to the index
+## Adding a project to awesome-anyka
 
 1. Choose the section:
    - **SDKs & low-level tooling:** toolchains, BSPs, kernel/U-Boot trees, flashing and recovery tools, register docs.
    - **Applications:** firmware images, camera and streaming apps, integrations built on the SDKs.
-2. Copy the **Official** or **Community** row template from the comment in `profile/README.md` and add the row to that section's table.
+2. Copy the **Official** or **Community** row template from the comment in [awesome-anyka's README](https://github.com/Anyka-Micro/awesome-anyka) and add the row to that section's table.
 3. Fill in **every** column. A row with an empty column doesn't get merged. Set **Status** from the repo's last push: 🟢 Active within the last 12 months, ⚪ Inactive (with the month of the last push) if older, 📦 Archived if the owner archived it.
 4. Open a PR and complete the checklist. Another admin must approve it before merging.
