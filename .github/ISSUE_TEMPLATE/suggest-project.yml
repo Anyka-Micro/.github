@@ -1,5 +1,5 @@
 name: Suggest a project
-description: Propose an open-source project for the Anyka-Micro profile.
+description: Propose an open-source project for awesome-anyka.
 title: "[Suggest] "
 labels: [project-suggestion]
 body:

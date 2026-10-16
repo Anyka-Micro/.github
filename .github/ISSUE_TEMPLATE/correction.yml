@@ -1,5 +1,5 @@
 name: Correct an entry
-description: Report a wrong license, author, description or chip list on the profile.
+description: Report a wrong license, author, description or chip list in awesome-anyka.
 title: "[Correction] "
 labels: [correction]
 body:
