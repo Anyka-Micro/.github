@@ -1,0 +1,19 @@
+name: Remove my project
+description: For community authors who don't want their project listed. We remove it within 7 days, no questions asked.
+title: "[Removal] "
+labels: [removal-request]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Which entry?
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: You don't need to give a reason. If you're not the repository owner, please say how you're connected to it below.
+  - type: textarea
+    id: note
+    attributes:
+      label: Anything else? (optional)

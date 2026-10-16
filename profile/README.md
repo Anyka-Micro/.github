@@ -40,7 +40,7 @@ Firmware, camera and streaming apps, and integrations built on the SDKs above.
 
 ## Add, correct or remove a project
 
-- **Suggest a project:** open an issue in the [`.github` repo](https://github.com/Anyka-Micro/.github/issues/new) with a link to it.
+- **Suggest a project:** open an issue in the [`.github` repo](https://github.com/Anyka-Micro/.github/issues/new/choose) with a link to it.
 - **Community author and want to be unlisted?** Open an issue labelled `removal-request`. We'll remove the entry within 7 days, no questions asked.
 - **Something wrong?** We fix corrections to licenses, authors or chip support first.
 - **Maintainers:** read the [contribution & attribution policy](https://github.com/Anyka-Micro/.github/blob/main/CONTRIBUTING.md) before adding entries.

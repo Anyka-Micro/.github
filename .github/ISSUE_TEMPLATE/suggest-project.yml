@@ -1,0 +1,45 @@
+name: Suggest a project
+description: Propose an open-source project for the Anyka-Micro profile.
+title: "[Suggest] "
+labels: [project-suggestion]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      description: Link to the upstream repository, not a copy or mirror.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - SDKs & low-level tooling
+        - Applications
+    validations:
+      required: true
+  - type: input
+    id: chips
+    attributes:
+      label: Supported chips
+      placeholder: AK3918EV300, AK39EV330
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: One or two sentences in your own words.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: This is not a re-upload of an Anyka SDK, BSP or datasheet.
+          required: true
+        - label: I am the author, or I believe the author would be happy to be listed.
+          required: false
