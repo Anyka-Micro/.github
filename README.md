@@ -29,7 +29,7 @@ Every repo also gets the `anyka` topic and a one-line description, because the o
 
 ## Rules for this repository
 
-- **`main` is protected** here and in `awesome-anyka`. Every change goes through a pull request with one approving review. While there is only one owner, the owner may merge with the admin bypass. Stop doing that once a second owner exists.
+- **`main` is protected** here and in `awesome-anyka`. Every change goes through a pull request. While there is only one owner, required approvals are set to 0 so the owner can merge. Set them back to 1 once a second owner exists.
 - **Listing changes go to [awesome-anyka](https://github.com/Anyka-Micro/awesome-anyka)** and follow [CONTRIBUTING.md](CONTRIBUTING.md). Read its "At a glance" section first: 🔴 Must rules block a merge, 🟡 Should rules don't.
 - **Don't rename or move** `profile/README.md`, `.github/ISSUE_TEMPLATE/` or `.github/pull_request_template.md`. GitHub finds them by exact path, and moving them silently turns the feature off.
 

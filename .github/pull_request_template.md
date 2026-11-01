@@ -9,6 +9,7 @@
 - [ ] Description is in my own words; any quote is ≤ 1 sentence, in quotation marks, linked
 - [ ] License copied exactly from upstream (SPDX ID), or marked `No license — link only` / `Unclear — see repo`
 - [ ] **Status** set from the repo's last push, and **Checked** date is today
+- [ ] Repos that bundle Anyka binaries carry `⚠️ Bundles Anyka binaries` in the License cell
 - [ ] Entry is correctly marked **Official** (lives in this org, Anyka maintains it) or **Community**
 - [ ] Nothing from the "Don't list" table: no third-party Anyka SDK/datasheet copies, no exploits, nothing internal published without release approval
 
