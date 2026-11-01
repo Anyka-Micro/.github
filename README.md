@@ -15,7 +15,7 @@ GitHub treats this repository specially. Some files here change what **every** r
 | `.github/ISSUE_TEMPLATE/*.yml` | 🟠 **Important**: org-wide | The *Suggest*, *Correct* and *Remove* forms, inherited by every org repo without its own. They apply the `project-suggestion`, `correction` and `removal-request` labels, which must exist in each repo that uses them. |
 | `LICENSE` | ⚪ Reference | CC BY 4.0 for the text in this repository. The Anyka name and logo are excluded. |
 | `README.md` (this file) | ⚪ Reference | Only shown when someone opens this repository. |
-| `.gitignore` | ⚪ Housekeeping | Keeps local notes, research drafts, the local `awesome-anyka` checkout and the `staging/` trees of repos not yet published out of this repository. |
+| `.gitignore` | ⚪ Housekeeping | Keeps local notes, research drafts, the local `awesome-anyka` checkout and the `staging/` working clones (SDK, docs, experiments) out of this repository. |
 
 ## Repositories in this organization
 
